@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Zenith UI is a modern and visually appealing VS Code theme designed to enhance your coding experience. With a perfect balance of contrast and readability, it provides a clean and distraction-free environment for developers. The carefully selected color scheme ensures comfortable long-hour coding sessions while maintaining a sleek and professional look. Whether you're working on front-end or back-end development, Zenith UI brings clarity and focus to your workflow, making coding more enjoyable and efficient." />
+
+    <title>Zenith UI</title>
+
+    <!--=============== ⁡⁣⁢⁣Favicon for All Browsers⁡ ===============-->
+    <link rel="icon" href="../zenith/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../zenith/icon/logo192.png" sizes="192x192" type="image/png">
+
+    <!--============ ⁡⁣⁢⁣GOOGLE FONTS⁡ ============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet
+    /">
+
+    <!--============ FONT AWESOME⁡ ============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--============ ⁡⁣⁢⁣CSS⁡ ============-->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!--============ ⁡⁣⁢⁣Navbar⁡ ============-->
+    <header>
+        <nav>
+            <!-- ⁡⁣⁢⁣Logo⁡ -->
+            <img src="./img/Logo-1.png" class="nav___logo" id="logo-1" loading="lazy" />
+
+            <img src="./img/Logo-2.png" class="nav___logo" id="logo-2" loading="lazy" />
+
+            <ul>
+                <!-- ⁡⁣⁢⁣Home⁡ -->
+                <li><a href="#home" class="li___tab">Home</a></li>
+                <!-- ⁡⁣⁢⁣About⁡ -->
+                <li><a href="#about" class="li___tab">About</a></li>
+                <!-- ⁡⁣⁢⁣Variants⁡⁡ -->
+                <li><a href="#variants" class="li___tab">Variants</a></li>
+                <!-- ⁡⁣⁢⁣Guide⁡⁡ -->
+                <li><a href="#guide" class="li___tab">Guide</a></li>
+                <!-- ⁡⁣⁢⁣Contact⁡ -->
+                <li><a href="#contact" class="li___tab">Contact</a></li>
+                <!-- Github -->
+                <li>
+                    <a href="https://github.com/maurya-07/zenith-ui.git" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--============ Menu Bar⁡ ============-->
+    <menu>
+        <div class="menu___icon">
+            <a href="https://github.com/maurya-07/zenith-ui.git" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <!-- Menu Bar -->
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="36"
+                height="36" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
+                xml:space="preserve" class="menu___bars">
+                <g>
+                    <path
+                        d="M490.667 405.333h-56.811C424.619 374.592 396.373 352 362.667 352s-61.931 22.592-71.189 53.333H21.333C9.557 405.333 0 414.891 0 426.667S9.557 448 21.333 448h270.144c9.237 30.741 37.483 53.333 71.189 53.333s61.931-22.592 71.189-53.333h56.811c11.797 0 21.333-9.557 21.333-21.333s-9.535-21.334-21.332-21.334zm-128 53.334c-17.643 0-32-14.357-32-32s14.357-32 32-32 32 14.357 32 32-14.358 32-32 32zM490.667 64h-56.811c-9.259-30.741-37.483-53.333-71.189-53.333S300.736 33.259 291.477 64H21.333C9.557 64 0 73.557 0 85.333s9.557 21.333 21.333 21.333h270.144C300.736 137.408 328.96 160 362.667 160s61.931-22.592 71.189-53.333h56.811c11.797 0 21.333-9.557 21.333-21.333S502.464 64 490.667 64zm-128 53.333c-17.643 0-32-14.357-32-32s14.357-32 32-32 32 14.357 32 32-14.358 32-32 32zM490.667 234.667H220.523c-9.259-30.741-37.483-53.333-71.189-53.333s-61.931 22.592-71.189 53.333H21.333C9.557 234.667 0 244.224 0 256c0 11.776 9.557 21.333 21.333 21.333h56.811c9.259 30.741 37.483 53.333 71.189 53.333s61.931-22.592 71.189-53.333h270.144c11.797 0 21.333-9.557 21.333-21.333.001-11.776-9.535-21.333-21.332-21.333zM149.333 288c-17.643 0-32-14.357-32-32s14.357-32 32-32 32 14.357 32 32-14.357 32-32 32z"
+                        fill="#ffffff" opacity="1" data-original="#000000"></path>
+                </g>
+            </svg>
+
+            <!-- Cross -->
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
+                height="30" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
+                xml:space="preserve" class="close">
+                <g>
+                    <g data-name="02 User">
+                        <path
+                            d="M25 512a25 25 0 0 1-17.68-42.68l462-462a25 25 0 0 1 35.36 35.36l-462 462A24.93 24.93 0 0 1 25 512z"
+                            fill="#fff" opacity="1" data-original="#000000"></path>
+                        <path
+                            d="M487 512a24.93 24.93 0 0 1-17.68-7.32l-462-462A25 25 0 0 1 42.68 7.32l462 462A25 25 0 0 1 487 512z"
+                            fill="#fff" opacity="1" data-original="#000000"></path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+        <ul>
+            <!-- ⁡⁣⁢⁣Home⁡ -->
+            <li><a href="#home" class="li___tab">Home</a></li>
+            <!-- ⁡⁣⁢⁣About⁡ -->
+            <li><a href="#about" class="li___tab">About</a></li>
+            <!-- ⁡⁣⁢⁣Variants⁡⁡ -->
+            <li><a href="#variants" class="li___tab">Variants</a></li>
+            <!-- ⁡⁣⁢⁣Guide⁡⁡ -->
+            <li><a href="#guide" class="li___tab">Guide</a></li>
+            <!-- ⁡⁣⁢⁣Contact⁡ -->
+            <li><a href="#contact" class="li___tab">Contact</a></li>
+            <li><a href="" class="li___tab"></a></li>
+        </ul>
+    </menu>
+
+    <div class="zenith-ui">
+
+        <!--============ ⁡⁣⁢⁣Home⁡⁡ ============-->
+        <section id="home">
+            <div class="blob-container">
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+            </div>
+
+            <div class="inner___home">
+
+                <img src="./img/Logo-1.png" class="home___logo" loading="lazy" />
+
+                <!-- ⁡⁣⁢⁣Download⁡ -->
+                <a href="https://marketplace.visualstudio.com/items?itemName=VishalMaurya.zenith-ui" id="download___ex">
+                    Install Now
+                </a>
+            </div>
+
+            <p class="caption">Dive into the Elegance of Darkness with a Purple Twist!</p>
+        </section>
+
+        <!--============ ⁡⁣⁢⁣About⁡⁡ ============-->
+        <section id="about">
+
+            <div class="head">
+                <h1>About</h1>
+                <span id="underline"></span>
+            </div>
+
+            <div class="inner___about">
+
+                <img src="./img/Zenith.png" loading="lazy" />
+
+                <p>Zenith UI is a modern and visually appealing VS Code theme designed to enhance your coding
+                experience. With a perfect balance of contrast and readability, it provides a clean and
+                distraction-free environment for developers. The carefully selected color scheme ensures comfortable
+                long-hour coding sessions while maintaining a sleek and professional look. Whether you're working on
+                front-end or back-end development, Zenith UI brings clarity and focus to your workflow, making
+                coding more enjoyable and efficient.</p>
+
+            </div>
+        </section>
+
+        <!-- ============ ⁡⁣⁢⁣Variants⁡⁡ ============-->
+        <section id="variants">
+
+            <div class="head">
+                <h1>Variants</h1>
+                <span id="underline"></span>
+            </div>
+
+            <div class="inner___variants">
+
+                <ul class="variants___points">
+                    <li>
+                        <h1>01</h1>
+                        <div class="variants___num">
+                            <h3>Black Purple</h3>
+                            <p>A Black Purple theme is perfect for those who love a sleek, modern, and slightly edgy
+                                aesthetic. Whether used in VS Code themes, UI designs, or branding, it enhances
+                                readability while maintaining a stylish look.</p>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="variants___num">
+                            <h3>Dark Purple</h3>
+                            <p>A Dark Purple theme is perfect for those who want a bold yet sophisticated UI. It works
+                                well in dark mode interfaces, gaming setups, and developer environments like VS Code
+                                themes.</p>
+                        </div>
+                        <h1>02</h1>
+                    </li>
+
+                    <li>
+                        <h1>03</h1>
+                        <div class="variants___num">
+                            <h3>Dark Theme</h3>
+                            <p>A Dark Theme is more than just a visual preference—it's a perfect mix of style,
+                                readability, and comfort. From developers to designers, dark themes are widely used
+                                across UI design, coding environments, and gaming setups.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="variants___num">
+                            <h3>Deep Purple</h3>
+                            <p>Deep Purple is a bold and luxurious shade that blends the richness of purple with an
+                                intense, dark tone. It symbolizes mystery, creativity, and sophistication, making it a
+                                popular choice for themes, branding, and UI designs.</p>
+                        </div>
+                        <h1>04</h1>
+                    </li>
+
+                    <li>
+                        <h1>05</h1>
+                        <div class="variants___num">
+                            <h3>Purple Twist</h3>
+                            <p>Purple Twist is not just a color—it’s a statement! It combines the elegance of purple
+                                with a vibrant, modern twist, making it perfect for themes, UI designs, and branding.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- ============ ⁡⁣⁢⁣Guide⁡⁡ ============-->
+        <section id="guide">
+
+            <div class="head">
+                <h1>Guide</h1>
+                <span id="underline"></span>
+            </div>
+
+            <ul class="inner___guide">
+                <li>
+                    <div class="steps">
+                        <div class="steps___column">
+                            <h3>Step 1: Open VS Code</h3>
+                            <p>● First, open <b>VS Code</b> on your computer.</p>
+                        </div>
+
+                        <div class="steps___column">
+                            <h3>Step 2: Open Extensions Marketplace</h3>
+                            <p>● Click on the Extensions icon in the left sidebar of VS Code.</p>
+                            <p>● In the search bar, type <b>"Zenith UI"</b>.</p>
+                        </div>
+                    </div>
+
+                    <img src="./img/Guide-1.png" loading="lazy" />
+                </li>
+
+                <li>
+                    <img src="./img/Guide-2.png" loading="lazy" />
+
+                    <div class="steps">
+                        <div class="steps___column">
+                            <h3>Step 3: Install Zenith UI Theme</h3>
+                            <p>● In the search results, find the <b>"Zenith UI"</b> theme</p>
+                            <p>● Click the <b>Install</b> button.</p>
+                        </div>
+
+                        <div class="steps___column">
+                            <h3>Step 4: Activate Zenith UI Theme</h3>
+                            <p>● Type "Color Theme" and select <b>"Preferences: Color Theme"</b>.</p>
+                            <p>● From the list, choose <b>"Zenith UI"</b>.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+
+        <!-- ============ ⁡⁣⁢⁣Preview⁡⁡ ============-->
+        <section id="preview">
+
+            <div class="head">
+                <h1>Preview</h1>
+                <span id="underline"></span>
+            </div>
+
+            <div class="inner___preview">
+
+                <!-- ⁡⁣⁢⁣Preview-1⁡ -->
+                <div class="card">
+                    <img class="background" src="./img/Preview-1.png" loading="lazy">
+
+                    <div class="card-content">
+                        <div class="profile-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-gamepad-2">
+                                <line x1="6" x2="10" y1="11" y2="11" />
+                                <line x1="8" x2="8" y1="9" y2="13" />
+                                <line x1="15" x2="15.01" y1="12" y2="12" />
+                                <line x1="18" x2="18.01" y1="10" y2="10" />
+                                <path
+                                    d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+                            </svg>
+                        </div>
+
+                        <h3 class="title">Black Purple</h3>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+
+                <!-- ⁡⁣⁢⁣Preview-2⁡ -->
+                <div class="card">
+                    <img class="background" src="./img/Preview-2.png" loading="lazy">
+
+                    <div class="card-content">
+                        <div class="profile-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-gamepad-2">
+                                <line x1="6" x2="10" y1="11" y2="11" />
+                                <line x1="8" x2="8" y1="9" y2="13" />
+                                <line x1="15" x2="15.01" y1="12" y2="12" />
+                                <line x1="18" x2="18.01" y1="10" y2="10" />
+                                <path
+                                    d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+                            </svg>
+                        </div>
+
+                        <h3 class="title">Dark Purple</h3>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+
+                <!-- ⁡⁣⁢⁣Preview-3⁡ -->
+                <div class="card">
+                    <img class="background" src="./img/Preview-3.png" loading="lazy">
+
+                    <div class="card-content">
+                        <div class="profile-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-gamepad-2">
+                                <line x1="6" x2="10" y1="11" y2="11" />
+                                <line x1="8" x2="8" y1="9" y2="13" />
+                                <line x1="15" x2="15.01" y1="12" y2="12" />
+                                <line x1="18" x2="18.01" y1="10" y2="10" />
+                                <path
+                                    d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+                            </svg>
+                        </div>
+
+                        <h3 class="title">Dark theme</h3>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+
+                <!-- ⁡⁣⁢⁣Preview-4⁡ -->
+                <div class="card">
+                    <img class="background" src="./img/Preview-4.png" loading="lazy">
+
+                    <div class="card-content">
+                        <div class="profile-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-gamepad-2">
+                                <line x1="6" x2="10" y1="11" y2="11" />
+                                <line x1="8" x2="8" y1="9" y2="13" />
+                                <line x1="15" x2="15.01" y1="12" y2="12" />
+                                <line x1="18" x2="18.01" y1="10" y2="10" />
+                                <path
+                                    d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+                            </svg>
+                        </div>
+
+                        <h3 class="title">Deep Purple</h3>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+
+                <!-- ⁡⁣⁢⁣Preview-5 -->
+                <div class="card">
+                    <img class="background" src="./img/Preview-5.png" loading="lazy">
+
+                    <div class="card-content">
+                        <div class="profile-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-gamepad-2">
+                                <line x1="6" x2="10" y1="11" y2="11" />
+                                <line x1="8" x2="8" y1="9" y2="13" />
+                                <line x1="15" x2="15.01" y1="12" y2="12" />
+                                <line x1="18" x2="18.01" y1="10" y2="10" />
+                                <path
+                                    d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+                            </svg>
+                        </div>
+
+                        <h3 class="title">Purple Twist</h3>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+
+            </div>
+
+            <!-- Mobile View -->
+            <div class="preview___img">
+                <h2>Black Purple</h2>
+                <img src="./img/Preview-1.png" loading="lazy">
+
+                <h2>Dark Purple</h2>
+                <img src="./img/Preview-2.png" loading="lazy">
+
+                <h2>Dark Theme</h2>
+                <img src="./img/Preview-3.png" loading="lazy">
+
+                <h2>Deep Purple</h2>
+                <img src="./img/Preview-4.png" loading="lazy">
+
+                <h2>Purple Twist</h2>
+                <img src="./img/Preview-5.png" loading="lazy">
+            </div>
+        </section>
+
+        <!-- ============ ⁡⁣⁢⁣Contact⁡⁡⁡ ============-->
+        <section id="contact">
+
+            <div class="head">
+                <h1>Contact</h1>
+                <span id="underline"></span>
+            </div>
+
+            <form class="contact___form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="86b5616c-b2a0-48d4-9763-b3a565e36149">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="tel" name="phone" placeholder="Your Phone No." required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </section>
+
+        <!-- ============ ⁡⁣⁢⁣Footer⁡⁡⁡ ============-->
+        <footer>
+            <div class="footer___sec">
+
+                <img src="./img/Logo-1.png" class="footer___logo" loading="lazy" />
+
+                <ul>
+                    <!-- ⁡⁣⁢⁣Variants⁡⁡ -->
+                    <li><a href="#variants" class="li___tab">Variants</a></li>
+                    <!-- ⁡⁣⁢⁣Guide⁡⁡ -->
+                    <li><a href="#guide" class="li___tab">Guide</a></li>
+                    <!-- ⁡⁣⁢⁣Contact⁡ -->
+                    <li><a href="#contact" class="li___tab">Contact</a></li>
+                    <!-- Github -->
+                    <li>
+                        <a href="https://github.com/maurya-07/zenith-ui.git" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <form class="footer___form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="86b5616c-b2a0-48d4-9763-b3a565e36149">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <button type="submit">Send Mail</button>
+                </form>
+
+            </div>
+
+            <div class="footer___legal">
+                <span>Zenith UI</span> © All Rights Reserved
+            </div>
+        </footer>
+
+    </div>
+
+    <!--============ ⁡⁣⁢⁣J⁡⁣⁢⁣avaScript⁡⁡ ============-->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
