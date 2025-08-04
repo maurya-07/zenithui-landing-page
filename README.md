@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://zenithui.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="./img/Zenith.png.png" alt="Zenith UI Logo" width="150" height="150">
+    <img src="./img/Zenith.png" alt="Zenith UI Logo" width="150" height="150">
 </a>
 
 # Zenith UI - VS Code Theme
@@ -62,23 +62,23 @@ You can customize your profile from the **settings**:
 
 **1. Black Purple**
 
-![Image Alt Text](./img/Preview-1.png.png);
+![Image Alt Text](./img/Preview-1.png);
 
 **2. Dark Purple**
 
-![Image Alt Text](./img/Preview-2.png.png);
+![Image Alt Text](./img/Preview-2.png);
 
 **3. Dark Theme**
 
-![Image Alt Text](./img/Preview-3.png.png);
+![Image Alt Text](./img/Preview-3.png);
 
 **4. Deep Purple**
 
-![Image Alt Text](./img/Preview-4.png.png);
+![Image Alt Text](./img/Preview-4.png);
 
 **5. Purple Twist**
 
-![Image Alt Text](./img/Preview-5.png.png);
+![Image Alt Text](./img/Preview-5.png);
 
 ### 🔗 **Links**
 
