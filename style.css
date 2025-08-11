@@ -71,75 +71,77 @@ p {
 }
 
 /* ============ ⁡⁣⁢⁣Navbar⁡⁡⁡ ============ */
-header nav {
-    position: fixed;
-    top: 0;
+header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 5rem;
-    font-size: 1.2rem;
-    padding: 1.25rem 6.25rem;
-    z-index: 999;
+    justify-content: center;
 
-    &.scrolled {
-        background: var(--white-color);
-    }
-
-    .nav___logo {
-        height: 4.3rem;
-        cursor: pointer;
-        pointer-events: none;
-    }
-
-    #logo-2 {
-        display: none;
-    }
-
-    ul {
+    nav {
+        position: fixed;
+        top: 1rem;
         display: flex;
-        gap: 2.5rem;
-        font-weight: 500;
-        list-style: none;
+        align-items: center;
+        height: 5rem;
+        font-size: 1.1rem;
+        border-radius: 1rem;
+        padding: 0 2rem 0 1.5rem;
+        background-color: var(--black-color);
+        z-index: 999;
 
-        li .li___tab {
-            position: relative;
-            color: var(--black-color);
+        .nav___logo {
+            height: 4rem;
+            margin-right: 2.9rem;
             cursor: pointer;
-            text-decoration: none;
-
-            &::before,
-            &::after {
-                content: '';
-                position: absolute;
-                top: 100%;
-                width: 0;
-                height: 0.2rem;
-                border-radius: 10rem;
-                background-color: var(--purple-color);
-                transition: .5s;
-            }
-
-            &::before {
-                left: 0;
-            }
-
-            &::after {
-                right: 0;
-            }
-
-            &:hover::before,
-            &:hover::after {
-                width: 100%;
-            }
+            pointer-events: none;
         }
 
-        li .fa-github {
-            font-size: 1.6rem;
-            color: var(--black-color);
+        #logo-2 { display: none; }
 
-            &:hover { color: var(--purple-color); }
+        ul {
+            display: flex;
+            gap: 2.5rem;
+            font-weight: 500;
+            list-style: none;
+
+            li .li___tab {
+                position: relative;
+                color: var(--white-color);
+                cursor: pointer;
+                text-decoration: none;
+
+                &::before,
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 100%;
+                    width: 0;
+                    height: 0.2rem;
+                    border-radius: 10rem;
+                    background-color: var(--purple-color);
+                    transition: .5s;
+                }
+
+                &::before {
+                    left: 0;
+                }
+
+                &::after {
+                    right: 0;
+                }
+
+                &:hover::before,
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+
+            li .fa-github {
+                font-size: 1.6rem;
+                color: var(--white-color);
+
+                &:hover {
+                    color: var(--purple-color);
+                }
+            }
         }
     }
 }
@@ -157,14 +159,16 @@ menu {
         display: flex;
         align-items: center;
         gap: .7rem;
-        
+
 
         i {
             color: var(--white-color);
             font-size: 2rem;
         }
 
-        svg { cursor: pointer; }
+        svg {
+            cursor: pointer;
+        }
 
         .menu___bars.hide {
             visibility: hidden;
@@ -471,7 +475,9 @@ menu {
                         margin-bottom: .7rem;
                     }
 
-                    p { text-align: justify; }
+                    p {
+                        text-align: justify;
+                    }
                 }
             }
         }
@@ -772,7 +778,9 @@ footer {
         }
     }
 
-    .footer___legal { text-align: center; }
+    .footer___legal {
+        text-align: center;
+    }
 }
 
 /*-----------------------------------*\
@@ -845,22 +853,20 @@ footer {
 
     /* ⁡⁣⁢⁣Navbar⁡ */
     header nav {
-        padding: 1rem .5rem;
+        top: 0;
+        width: 100%;
         height: 4rem;
+        padding: 1rem .5rem;
+        border-radius: 0;
         background-color: var(--black-color);
 
         &.scrolled {
             background: var(--black-color);
         }
 
-        #logo-1 {
-            display: none;
-        }
-
-        #logo-2 {
-            display: block;
-            height: 11rem;
-        }
+        #logo-1 { display: none; }
+        
+        #logo-2 { display: block; }
 
         ul {
             display: none;
