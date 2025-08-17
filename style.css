@@ -80,7 +80,7 @@ header {
         top: 1rem;
         display: flex;
         align-items: center;
-        height: 5rem;
+        height: 4.4rem;
         font-size: 1.1rem;
         border-radius: 1rem;
         padding: 0 2rem 0 1.5rem;
@@ -88,7 +88,7 @@ header {
         z-index: 999;
 
         .nav___logo {
-            height: 4rem;
+            height: 3.6rem;
             margin-right: 2.9rem;
             cursor: pointer;
             pointer-events: none;
